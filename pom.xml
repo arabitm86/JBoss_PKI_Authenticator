@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <repositories>
+    <repository>
+       <id>central.maven.org</id>
+       <name>Maven Central Repo</name>
+       <url>http://repo.maven.apache.org/maven2</url>
+    </repository> 
+    <repository>
+       <id>maven.repository.redhat.com</id>
+       <name>Red Hat Maven Repo</name>
+       <url>https://maven.repository.redhat.com/techpreview/all/</url>
+    </repository>
+  </repositories>
+  <groupId>org.jboss.pki.authenticator</groupId>
+  <artifactId>JBoss_PKI_Authenticator</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>JBoss_PKI_Authenticator</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.picketbox</groupId>
+      <artifactId>picketbox</artifactId>
+      <version>4.0.17.SP2-redhat-2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.as</groupId>
+      <artifactId>jboss-as-web</artifactId>
+      <version>7.2.2.Final-redhat-4</version>
+      <scope>compile</scope>
+    </dependency>
+    <!--dependency>
+      <groupId>org.jboss.as</groupId>
+      <artifactId>jboss-as-web</artifactId>
+      <version>7.2.2.Final-redhat-4</version>
+      <scope>runtime</scope>
+    </dependency-->
+    <dependency>
+      <groupId>org.jboss.spec.javax.servlet</groupId>
+      <artifactId>jboss-servlet-api_3.0_spec</artifactId>
+      <version>1.0.2.Final-redhat-1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.web</groupId>
+      <artifactId>jbossweb</artifactId>
+      <version>7.2.2.Final-redhat-1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.49</version>
+      <scope>compile</scope>
+    </dependency>
+
+  </dependencies>
+</project>
