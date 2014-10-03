@@ -380,31 +380,8 @@ public class PKICertParser
     HashMap<String, String> extendedkeyusageoidtotextmap = null;
     String[] EXTENDEDKEYUSAGEOIDSTRINGS = { "2.5.29.37.0", "1.3.6.1.5.5.7.3.0", "1.3.6.1.5.5.7.3.1", "1.3.6.1.5.5.7.3.2", "1.3.6.1.5.5.7.3.3", "1.3.6.1.5.5.7.3.4", "1.3.6.1.5.5.7.3.5", "1.3.6.1.5.5.7.3.6", "1.3.6.1.5.5.7.3.7", "1.3.6.1.5.5.7.3.8", "1.3.6.1.4.1.311.20.2.2", "1.3.6.1.5.5.7.3.9" };
     
-
-
-
-
-
-
-
-
-
-
-
     String[] EXTENDEDKEYUSAGETEXTS = { "All usages", "All usages", "Server authentication", "Client authentication", "Code signing", "Email protection", "IPSec end system", "IPSec tunnel", "IPSec user", "Timestamping", "Smartcard Logon", "OCSP signer" };
     
-
-
-
-
-
-
-
-
-
-
-
-
     extendedkeyusageoidtotextmap = new HashMap();
     for (int i = 0; i < EXTENDEDKEYUSAGETEXTS.length; i++) {
       extendedkeyusageoidtotextmap.put(EXTENDEDKEYUSAGEOIDSTRINGS[i], EXTENDEDKEYUSAGETEXTS[i]);
