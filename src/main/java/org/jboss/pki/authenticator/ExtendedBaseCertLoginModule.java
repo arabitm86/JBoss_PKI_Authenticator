@@ -110,5 +110,3 @@ public class ExtendedBaseCertLoginModule
      return subjAltName;
   }
 }
-
-//test comment
