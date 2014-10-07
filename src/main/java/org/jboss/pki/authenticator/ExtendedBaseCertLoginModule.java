@@ -111,12 +111,3 @@ public class ExtendedBaseCertLoginModule
   }
 }
 
-
-
-/* Location:           C:\Users\RHC-R9L4HMR\Documents\EAP6\JBCT_JBossExtensions.jar
- *
- *  * Qualified Name:     mil.disa.gccs.jbct.jboss.extensions.ExtendedBaseCertLoginModule
- *
- *   * JD-Core Version:    0.7.0.1
- *
- *    */
